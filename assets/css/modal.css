@@ -1,0 +1,180 @@
+#pokemonModal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+#pokemonModal .modal-content {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+#pokemonModal ol {
+    display: flex;
+    padding: 0px;
+}
+
+#pokemonModal li.type{
+    list-style-type: none;
+    border-radius: 1rem;
+    padding:5px;
+    filter: brightness(1.1);
+    margin-right: 7px;
+}
+
+#pokemonModal .modal-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+}
+
+#pokemonModal .modal-details-left {
+    display: flex;
+    flex-direction: column;
+}
+
+#pokemonModal .modal-details-left h2{
+    text-transform: capitalize;
+    margin: 0px;
+    font-size: 2rem;
+}
+
+#pokemonModal .modal-details-right {
+    display: flex;
+    align-items:end;
+    padding-right:20px;
+}
+
+
+#pokemonModal .modal-info {
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 0px;
+}
+
+#pokemonModal .left-info{
+    margin-right: 10px;
+    color: gray;
+    font-weight: 300;
+}
+
+
+#pokemonModal .modal-info p{
+    text-transform: capitalize;
+}
+
+#pokemonModal .modal-info .ability{
+    text-transform: capitalize;
+    list-style-type: none;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+#pokemonModal .close {
+    position: absolute;
+    color: white;
+    top: 0;
+    right: 0;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 20px; 
+}
+
+#pokemonModal .modal-content img{
+    width: 30%;
+}
+
+#pokemonModal .modal-pic{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -60px;
+    margin-top: -60px;
+}
+
+#pokemonModal .modal-content .pokemon-info{
+    background-color: white;
+}
+
+#pokemonModal.normal {
+    background-color: #a6a877;
+}
+
+#pokemonModal.grass {
+    background-color: #77c850;
+}
+
+#pokemonModal.fire {
+    background-color: #ee7f30;
+}
+
+#pokemonModal.water {
+    background-color: #678fee;
+}
+
+#pokemonModal.electric {
+    background-color: #f7cf2e;
+}
+
+#pokemonModal.ice {
+    background-color: #98d5d7;
+}
+
+#pokemonModal.ground {
+    background-color: #dfbf69;
+}
+
+#pokemonModal.flying {
+    background-color: #a98ff0;
+}
+
+#pokemonModal.poison {
+    background-color: #a040a0;
+}
+
+#pokemonModal.fighting {
+    background-color: #bf3029;
+}
+
+#pokemonModal.psychic {
+    background-color: #f65687;
+}
+
+#pokemonModal.dark {
+    background-color: #725847;
+}
+
+#pokemonModal.rock {
+    background-color: #b8a137;
+}
+
+#pokemonModal.bug {
+    background-color: #a8b720;
+}
+
+#pokemonModal.ghost {
+    background-color: #6e5896;
+}
+
+#pokemonModal.steel {
+    background-color: #b9b7cf;
+}
+
+#pokemonModal.dragon {
+    background-color: #6f38f6;
+}
+
+#pokemonModal.fairy {
+    background-color: #f9aec7;
+}
